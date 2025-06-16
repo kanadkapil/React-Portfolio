@@ -1,23 +1,23 @@
-﻿import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
     <div className="navbar backdrop-blur-xl text-primary-content px-4 z-40 relative container mx-auto rounded-2xl shadow-2xl- ">
       <div className="flex-1">
-        <Link to="/" className="btn btn-ghost normal-case text-xl">
+        <Link to="/" className="btn btn-ghost hover:scale-105 hover:text-black hover:rounded-2xl hover:bg-lime-600 text-3xl p-6">
           Kanad's Portfolio
         </Link>
       </div>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex gap-2">
-        <Link to="/" className="btn btn-sm btn-ghost hover:bg-primary-focus">Home</Link>
-        <Link to="/about" className="btn btn-sm btn-ghost hover:bg-primary-focus">About</Link>
-        <Link to="/projects" className="btn btn-sm btn-ghost hover:bg-primary-focus">Projects</Link>
-        <Link to="/skills" className="btn btn-sm btn-ghost hover:bg-primary-focus">Skills</Link>
-        <Link to="/education" className="btn btn-sm btn-ghost hover:bg-primary-focus">Education</Link>
-        <Link to="/certificates" className="btn btn-sm btn-ghost hover:bg-primary-focus">Certificates</Link>
-        <Link to="/contact" className="btn btn-sm btn-ghost hover:bg-primary-focus">Contact</Link>
+        <Link to="/" className="btn btn-lg  hover:scale-110 hover:text-black btn-ghost hover:bg-lime-600 hover:rounded-2xl">Home</Link>
+        <Link to="/about" className="btn btn-lg  hover:scale-110 hover:text-black btn-ghost hover:bg-lime-600 hover:rounded-2xl">About</Link>
+        <Link to="/projects" className="btn btn-lg  hover:scale-110 hover:text-black btn-ghost hover:bg-lime-600 hover:rounded-2xl">Projects</Link>
+        <Link to="/skills" className="btn btn-lg  hover:scale-110 hover:text-black btn-ghost hover:bg-lime-600 hover:rounded-2xl">Skills</Link>
+        <Link to="/education" className="btn btn-lg  hover:scale-110 hover:text-black btn-ghost hover:bg-lime-600 hover:rounded-2xl">Education</Link>
+        <Link to="/certificates" className="btn btn-lg  hover:scale-110 hover:text-black btn-ghost hover:bg-lime-600 hover:rounded-2xl">Certificates</Link>
+        <Link to="/contact" className="btn btn-lg  hover:scale-110 hover:text-black btn-ghost hover:bg-lime-600 hover:rounded-2xl">Contact</Link>
       </div>
 
       {/* Mobile Dropdown Menu */}
