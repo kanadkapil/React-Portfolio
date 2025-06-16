@@ -1,0 +1,44 @@
+﻿[
+    {
+        "title": "Complete 2023 web development bootcamp",
+        "platform": "Udemy",
+        "duration": "61 Hours",
+        "link": "https://github.com/yourusername/certificates/blob/main/udemy/complete-web-dev-bootcamp.pdf"
+    },
+    {
+        "title": "Python Programs for Beginners",
+        "platform": "Udemy",
+        "duration": "2 Hours",
+        "link": "https://github.com/yourusername/certificates/blob/main/udemy/python-beginners.jpg"
+    },
+    {
+        "title": "Front end developer HTML",
+        "platform": "Great Learning",
+        "duration": "2 Hours",
+        "link": "https://github.com/yourusername/certificates/blob/main/great-learning/frontend-html.pdf"
+    },
+    {
+        "title": "Types of Cyber Security",
+        "platform": "Great Learning",
+        "duration": "2 Hours",
+        "link": "https://github.com/yourusername/certificates/blob/main/great-learning/cybersecurity-types.pdf"
+    },
+    {
+        "title": "SSO Digital Certificate",
+        "platform": "National",
+        "duration": "2 Hours",
+        "link": "https://github.com/yourusername/certificates/blob/main/sso/sso-digital-certificate.pdf"
+    },
+    {
+        "title": "Bangladesh Youth Association for Cancer Awareness",
+        "platform": "BYACA",
+        "duration": "2020 - Present",
+        "link": "https://github.com/yourusername/certificates/blob/main/byaca/byaca-certificate.pdf"
+    },
+    {
+        "title": "GANTT CHART",
+        "platform": "-",
+        "duration": "-",
+        "link": "https://github.com/yourusername/certificates/blob/main/other/5.png"
+    }
+]
