@@ -1,5 +1,4 @@
-﻿
-import { createBrowserRouter } from 'react-router-dom'
+﻿import { createBrowserRouter } from 'react-router-dom'
 import App from './App'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -8,6 +7,7 @@ import Skills from './pages/Skills'
 import Education from './pages/Education'
 import Certificates from './pages/Certificates'
 import Contact from './pages/Contact'
+import NotFound from './pages/NotFound' // 👈 import this
 
 const router = createBrowserRouter([
   {
@@ -20,10 +20,10 @@ const router = createBrowserRouter([
       { path: 'skills', element: <Skills /> },
       { path: 'education', element: <Education /> },
       { path: 'certificates', element: <Certificates /> },
-      { path: 'contact', element: <Contact /> }
+      { path: 'contact', element: <Contact /> },
+      { path: '*', element: <NotFound /> } // 👈 catch-all 404 route
     ]
   }
 ])
 
 export default router
-
