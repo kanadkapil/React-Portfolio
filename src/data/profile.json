@@ -3,7 +3,7 @@
     "work": "Web Designer - Writer - Singer",
     "profession": "Student",
     "company": "LPU",
-    "designation": "B.Tech, CSE, 3rd Year",
+    "designation": "B.Tech, CSE, Final Year",
     "picA": "https://kanadkapil.github.io/Personal-Portfolio-Live/PicA.png",
     "picB": "https://kanadkapil.github.io/Personal-Portfolio-Live/PicB.jpg",
     "github": "https://github.com/kanadkapil",
@@ -12,5 +12,10 @@
     "insta": "https://www.instagram.com/kanad.kapil/",
     "fb": "https://www.facebook.com/kanad.kapil/",
     "youtube": "https://www.youtube.com/@kanadkapil",
-    "spotify": "https://open.spotify.com/embed/track/3vkCueOmm7xQDoJ17W1Pm3?utm_source=generator"
+    "spotify": "https://open.spotify.com/embed/track/3vkCueOmm7xQDoJ17W1Pm3?utm_source=generator",
+    "githubStats": {
+        "main": "https://github-readme-stats.vercel.app/api?username=kanadkapil&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true",
+        "topLangs": "https://github-readme-stats.vercel.app/api/top-langs/?username=kanadkapil&theme=blue-green&hide_border=false&include_all_commits=false&count_private=true&layout=compact",
+        "streak": "https://github-readme-streak-stats.herokuapp.com/?user=kanadkapil&theme=blue-green&hide_border=false"
+    }
 }

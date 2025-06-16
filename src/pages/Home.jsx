@@ -1,6 +1,7 @@
 ﻿import { useEffect, useState } from 'react'
 import profileData from '../data/profile.json'
 import ProfileCard from '../components/profileCard'
+import GithubCard from '../components/GithubCard'
 
 export default function Home() {
   const [profile, setProfile] = useState({})
@@ -21,6 +22,9 @@ export default function Home() {
               <ProfileCard data={profile} />
             </div>
           </div>
+
+          <GithubCard />
+
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@ import educationData from '../data/educationData.json';
 
 const Education = () => {
   return (
-    <main className="min-h-screen p-8  my-20 text-white">
+    <main className=" p-8  my-20 text-white">
       <div className="max-w-6xl mx-auto">
         <div className="min-h-[100px] rounded-lg shadow-lg bg-transparent backdrop-blur-md  p-6">
           
