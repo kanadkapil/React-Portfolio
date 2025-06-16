@@ -14,7 +14,7 @@ const Education = () => {
 
           {/* Table */}
           <div className="overflow-x-auto rounded-lg backdrop-blur-md shadow-sm">
-            <table className="min-w-full text-center rounded-lg text-2xl">
+            <table className="min-w-full text-center rounded-lg text-sm sm:text-2xl lg:text-3xl">
               <thead className="bg-lime-900">
                 <tr>
                   <th className="py-3 px-5">Degree</th>

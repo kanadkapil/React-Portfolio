@@ -9,7 +9,7 @@ const About = () => {
         <div className="col-span-12 rounded-lg backdrop-blur-xl shadow-2xl p-6">
 
           {/* About Section */}
-          <section className="col-span-12 rounded-lg backdrop-blur-xl my-10 shadow-2xl p-6 mb-6">
+          <section className="col-span-12 rounded-lg backdrop-blur-xl my-10 shadow-2xl py-6 mb-6">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
               About
             </h1>
@@ -19,7 +19,7 @@ const About = () => {
           </section>
 
           {/* Details Section */}
-          <section className="col-span-12 rounded-lg backdrop-blur-xl my-10 shadow-2xl p-6">
+          <section className="col-span-12 rounded-lg backdrop-blur-xl my-10 shadow-2xl py-6">
             <h1 className="text-3xl font-bold mb-5 ">
               Details
             </h1>

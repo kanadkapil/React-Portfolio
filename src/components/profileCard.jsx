@@ -4,19 +4,19 @@ import TextPressure from '../components/TextPressure'
 
 const ProfileCard = ({ data }) => {
     return (
-        <div className="min-h-[860px] rounded-lg shadow-lg  bg-opacity-80 backdrop-blur-xl sm:col-span-4 p-4 flex flex-col overflow-y-auto">
+        <div className="min-h-[860px] rounded-lg shadow-lg bg-opacity-80 backdrop-blur-xl sm:col-span-4 p-4 flex flex-col overflow-y-auto">
 
             {/* Profile Picture Toggle */}
-            <div className="flex justify-center items-center my-4 zoom">
+            <div className="flex justify-center items-center my-4 transition-transform duration-300 hover:scale-105 ">
                 <label className="swap swap-flip">
                     <input type="checkbox" />
                     <div className="swap-off avatar">
-                        <div className="w-96 lg:w-96 rounded-full shadow-lg">
+                        <div className="w-80 h-80 mx-auto lg:w-96 lg:h-96 rounded-full shadow-lg">
                             <img src={data.picA} alt={data.name} />
                         </div>
                     </div>
                     <div className="swap-on avatar">
-                        <div className="w-96 lg:w-96 rounded-full shadow-lg">
+                        <div className="w-80 h-80 mx-auto lg:w-96 lg:h-96  rounded-full shadow-lg">
                             <img src={data.picB} alt={data.name} />
                         </div>
                     </div>
@@ -24,7 +24,7 @@ const ProfileCard = ({ data }) => {
             </div>
 
             {/* Identity Section */}
-            <div className="mx-10 sm:mx-6 lg:mx-10 bg-opacity-20 shadow-2xl mt-5 rounded-lg flex-grow">
+            <div className="mx-10 sm:mx-6 lg:mx-10 bg-opacity-20 mt-5 rounded-lg flex-grow">
                 <h2 className="text-3xl sm:text-4xl lg:text-3xl font-bold text-white">
 
                     {/* component name  */}
@@ -54,7 +54,7 @@ const ProfileCard = ({ data }) => {
             </div>
 
             {/* Social Media Links */}
-            <div className="mx-10 sm:mx-6 lg:mx-10 mt-5 backdrop-blur-3xl bg-opacity-20 shadow-2xl p-5 rounded-lg text-center">
+            <div className="mx-10 sm:mx-6 lg:mx-10 mt-5  p-5  text-center">
                 <div className="flex justify-center space-x-4">
                     <a href={data.github} target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-github fa-shake text-3xl sm:text-4xl lg:text-5xl text-white"></i>

@@ -15,7 +15,7 @@ export default function Home() {
       className="min-h-screen bg-fixed bg-cover bg-center"
     >
       {/* Optional overlay for readability */}
-      <div className="min-h-screen bg-opacity-50">
+      <div className="min-h-screen rounded-2xl bg-opacity-50">
         <div className="container mx-auto">
           <div className="grid gap-4 p-4 sm:grid-cols-12 grid-cols-1 text-center">
             <div className="sm:col-span-12">
