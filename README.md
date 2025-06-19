@@ -1,9 +1,8 @@
-﻿# My Portfolio
+# Mini Blog Viewer (Vite + React)
 
-This is a React portfolio website project structured with React Router, hooks, DaisyUI, ReactBitz, and Tailwind CSS.
+A simple blog viewer using React, React Router DOM, and DaisyUI.
 
-## Setup Instructions
-
-1. Install dependencies: npm install
-2. Start dev server: npm run dev
-
+<br>
+<br>
+<br>
+https://myblogreact-steel.vercel.app/
